@@ -1,0 +1,4 @@
+CREATE TYPE location AS (
+    lat DOUBLE PRECISION,
+    lon DOUBLE PRECISION
+);
