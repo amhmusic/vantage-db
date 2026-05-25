@@ -1,4 +1,4 @@
-INSERT INTO markers (name, location)
+INSERT INTO markers (name, latitude, longitude)
 VALUES
-    ('Cleveland', ROW(40,-80)::location),
-    ('New York', ROW(30, -70)::location);
+    ('Cleveland', 30, -71),
+    ('New York', 40, -60);
